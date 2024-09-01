@@ -26,6 +26,8 @@
 		BA6B62402C80D5FA001EB50E /* FirestoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B623F2C80D5FA001EB50E /* FirestoreViewModel.swift */; };
 		BA78F5B52C83A4BA001112F3 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78F5B42C83A4BA001112F3 /* CollectionView.swift */; };
 		BA78F5BB2C83C324001112F3 /* ScrollViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78F5BA2C83C324001112F3 /* ScrollViewModifiers.swift */; };
+		BAD08EA32C84793800F70DAD /* LowerCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */; };
+		BAD08EA52C85186A00F70DAD /* CarouselCLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		BA6B623F2C80D5FA001EB50E /* FirestoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreViewModel.swift; sourceTree = "<group>"; };
 		BA78F5B42C83A4BA001112F3 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		BA78F5BA2C83C324001112F3 /* ScrollViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModifiers.swift; sourceTree = "<group>"; };
+		BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerCarouselView.swift; sourceTree = "<group>"; };
+		BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		BA6B62002C80D22B001EB50E /* FirebaseBasics */ = {
 			isa = PBXGroup;
 			children = (
+				BAD08EA12C84791500F70DAD /* CarouselViews */,
 				BA78F5B92C83C311001112F3 /* ScrollViews */,
 				BA78F5B82C83A4D7001112F3 /* Models */,
 				BA78F5B72C83A4CC001112F3 /* ViewModels */,
@@ -195,6 +200,15 @@
 				BA78F5BA2C83C324001112F3 /* ScrollViewModifiers.swift */,
 			);
 			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		BAD08EA12C84791500F70DAD /* CarouselViews */ = {
+			isa = PBXGroup;
+			children = (
+				BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */,
+				BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */,
+			);
+			path = CarouselViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,8 +357,10 @@
 				BA78F5B52C83A4BA001112F3 /* CollectionView.swift in Sources */,
 				BA6B62042C80D22B001EB50E /* ContentView.swift in Sources */,
 				BA6B62022C80D22B001EB50E /* FirebaseBasicsApp.swift in Sources */,
+				BAD08EA32C84793800F70DAD /* LowerCarouselView.swift in Sources */,
 				BA6B62402C80D5FA001EB50E /* FirestoreViewModel.swift in Sources */,
 				BA6B623E2C80D5E9001EB50E /* ExampleModel.swift in Sources */,
+				BAD08EA52C85186A00F70DAD /* CarouselCLView.swift in Sources */,
 				BA6B623C2C80D5D1001EB50E /* FirestoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
