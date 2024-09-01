@@ -10,12 +10,37 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            TabView{
+                
+                FirestoreView()
+                    .tabItem {
+                        
+                        Image(systemName: "pencil.line")
+                        Text("Hinzufügen")
+
+                        
+                    }
+                    .foregroundStyle(.black)
+                
+                CollectionView()
+                    .tabItem {
+                        
+                        Image(systemName: "list.number")
+                            Text("Liste")
+                            .foregroundStyle(.black)
+                    }
+
+                
+                
+                
+            }
+            .tint(.black)
+            
+            
+            
+            
         }
-        .padding()
     }
 }
 
