@@ -10,7 +10,8 @@ import SwiftUI
 struct CollectionView: View {
     @StateObject private var viewModel = FirestoreViewModel()
     
-    
+    var title: String
+
     
     var body: some View {
         NavigationStack{
@@ -69,5 +70,5 @@ extension Color {
 }
 
 #Preview {
-    CollectionView()
+    CollectionView(title: "stt")
 }

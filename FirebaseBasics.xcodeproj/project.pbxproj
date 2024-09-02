@@ -28,6 +28,7 @@
 		BA78F5BB2C83C324001112F3 /* ScrollViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78F5BA2C83C324001112F3 /* ScrollViewModifiers.swift */; };
 		BAD08EA32C84793800F70DAD /* LowerCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */; };
 		BAD08EA52C85186A00F70DAD /* CarouselCLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */; };
+		BAD08EA82C85D37500F70DAD /* CarouselCLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD08EA72C85D37500F70DAD /* CarouselCLList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		BA78F5BA2C83C324001112F3 /* ScrollViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModifiers.swift; sourceTree = "<group>"; };
 		BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerCarouselView.swift; sourceTree = "<group>"; };
 		BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCLView.swift; sourceTree = "<group>"; };
+		BAD08EA72C85D37500F70DAD /* CarouselCLList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCLList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,10 +207,19 @@
 		BAD08EA12C84791500F70DAD /* CarouselViews */ = {
 			isa = PBXGroup;
 			children = (
+				BAD08EA62C85D34C00F70DAD /* CourselCL */,
 				BAD08EA22C84793800F70DAD /* LowerCarouselView.swift */,
-				BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */,
 			);
 			path = CarouselViews;
+			sourceTree = "<group>";
+		};
+		BAD08EA62C85D34C00F70DAD /* CourselCL */ = {
+			isa = PBXGroup;
+			children = (
+				BAD08EA42C85186A00F70DAD /* CarouselCLView.swift */,
+				BAD08EA72C85D37500F70DAD /* CarouselCLList.swift */,
+			);
+			name = CourselCL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +372,7 @@
 				BA6B62402C80D5FA001EB50E /* FirestoreViewModel.swift in Sources */,
 				BA6B623E2C80D5E9001EB50E /* ExampleModel.swift in Sources */,
 				BAD08EA52C85186A00F70DAD /* CarouselCLView.swift in Sources */,
+				BAD08EA82C85D37500F70DAD /* CarouselCLList.swift in Sources */,
 				BA6B623C2C80D5D1001EB50E /* FirestoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,8 @@ struct FirestoreView: View {
     @State private var documentName = ""
     @State private var title = ""
     @State private var text = ""
+    @State private var image = ""
+
 
     
 /*
@@ -86,7 +88,7 @@ struct FirestoreView: View {
                     if newCollection.isEmpty {
                         print("Collection ist leer")
                     } else {
-                        let newExample = ExampleModel(title: title, text: text)
+                        let newExample = ExampleModel(imageURL: image, title: title, text: text)
                         viewModel.addCollection(newCollection: newCollection, documentName: title, example: newExample)
                         
                     }

@@ -23,7 +23,7 @@ struct ContentView: View {
                     }
                     .foregroundStyle(.black)
                 
-                CollectionView()
+                CollectionView(title: "ss")
                     .tabItem {
                         
                         Image(systemName: "list.number")
