@@ -12,6 +12,8 @@ struct CarouselCLView: View {
     @State private var activeID: Int?
     @State private var selectedTitle: String = "Action"
 
+    
+    // MARK: VIEW -
     var body: some View {
         VStack {
             
@@ -45,7 +47,6 @@ struct CarouselCLView: View {
                                     .frame(width: 70, height: 70)
                                     .clipShape(Circle())
 
-                                // Setze den Text basierend auf dem Index
                                 Text(genreForIndex(index))
                                     .bold()
                                     .foregroundStyle(.black)

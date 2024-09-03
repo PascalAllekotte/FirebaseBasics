@@ -19,7 +19,7 @@ struct FirebaseBasicsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarouselCLView()
         }
     }
 }

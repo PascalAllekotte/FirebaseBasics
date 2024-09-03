@@ -33,7 +33,7 @@ struct LowerCarouselView: View {
                 
                 ScrollView(.horizontal){
                     HStack(spacing: 35){
-                        ForEach(1...8, id: \.self) { index in
+                        ForEach(1...6, id: \.self) { index in
                             Image("pic \(index)")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
